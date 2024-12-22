@@ -1,0 +1,33 @@
+name: Extract Code Blocks
+
+on:
+  push:
+    paths:
+      - '**/*.md'
+
+jobs:
+  extract-code:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install Dependencies
+        run: |
+          pip install mistune colorlog
+
+      - name: Run Extractor Script
+        run: |
+          python extractor.py
+
+      - name: Commit Extracted Files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add scraper/
+          git commit -m "Extracted code blocks from Markdown"
+          git push
