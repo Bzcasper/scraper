@@ -2007,7 +2007,7 @@ bash
 Copy code
 GET /system/report
 5. Monitoring
-Access the monitoring dashboard at <http://localhost:3001>.
+Access the monitoring dashboard at [def].
 
 Dashboard Features
 Active Jobs: View currently running scraping jobs.
@@ -3891,7 +3891,7 @@ bash
 Copy code
 GET /system/report
 5. Monitoring
-Access the monitoring dashboard at <http://localhost:3001>.
+Access the monitoring dashboard at [def].
 
 Dashboard Features
 Active Jobs: View currently running scraping jobs.
@@ -6789,7 +6789,7 @@ bash
 Copy code
 GET /system/report
 5. Monitoring
-Access the monitoring dashboard at <http://localhost:3001>.
+Access the monitoring dashboard at [def].
 
 Dashboard Features
 Active Jobs: View currently running scraping jobs.
@@ -9436,7 +9436,7 @@ bash
 Copy code
 GET /system/report
 5. Monitoring
-Access the monitoring dashboard at <http://localhost:3001>.
+Access the monitoring dashboard at [def].
 
 Dashboard Features
 Active Jobs: View currently running scraping jobs.
@@ -12061,7 +12061,7 @@ bash
 Copy code
 GET /system/report
 5. Monitoring
-Access the monitoring dashboard at <http://localhost:3001>.
+Access the monitoring dashboard at [def].
 
 Dashboard Features
 Active Jobs: View currently running scraping jobs.
@@ -14442,7 +14442,7 @@ bash
 Copy code
 GET /system/report
 5. Monitoring
-Access the monitoring dashboard at <http://localhost:3001>.
+Access the monitoring dashboard at [def].
 
 Dashboard Features
 Active Jobs: View currently running scraping jobs.
@@ -16326,7 +16326,7 @@ bash
 Copy code
 GET /system/report
 5. Monitoring
-Access the monitoring dashboard at <http://localhost:3001>.
+Access the monitoring dashboard at [def].
 
 Dashboard Features
 Active Jobs: View currently running scraping jobs.
@@ -18835,7 +18835,7 @@ bash
 Copy code
 GET /system/report
 5. Monitoring
-Access the monitoring dashboard at <http://localhost:3001>.
+Access the monitoring dashboard at [def].
 
 Dashboard Features
 Active Jobs: View currently running scraping jobs.
@@ -21137,3 +21137,5 @@ The components integrate through:
 
 Would you like me to continue with more specific components or focus on a particular area in more detail?
 </explanation>",3,,
+
+[def]: http://localhost:3001
